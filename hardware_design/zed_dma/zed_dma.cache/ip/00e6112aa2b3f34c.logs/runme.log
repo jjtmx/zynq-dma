@@ -1,0 +1,139 @@
+
+*** Running vivado
+    with args -log dma_xbar_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source dma_xbar_0.tcl
+
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source dma_xbar_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1085.645 ; gain = 148.086 ; free physical = 118 ; free virtual = 11484
+INFO: [Synth 8-638] synthesizing module 'dma_xbar_0' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_xbar_0/synth/dma_xbar_0.v:59]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_12_axi_crossbar' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:4882]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_12_crossbar' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:2239]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_12_si_transactor' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:3798]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_12_addr_decoder' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:794]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_12_addr_decoder' (1#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:794]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_10_axic_srl_fifo' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:698]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_10_ndeep_srl' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:1134]
+INFO: [Synth 8-638] synthesizing module 'SRLC32E' [/opt/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:43478]
+INFO: [Synth 8-256] done synthesizing module 'SRLC32E' (2#1) [/opt/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:43478]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_10_ndeep_srl' (3#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:1134]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_10_axic_srl_fifo' (4#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:698]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc' (5#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_12_si_transactor' (6#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:3798]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_12_si_transactor__parameterized0' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:3798]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized0' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized0' (6#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_12_si_transactor__parameterized0' (6#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:3798]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_12_splitter' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:4459]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_12_splitter' (7#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:4459]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_12_wdata_router' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:4734]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_10_axic_reg_srl_fifo' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:889]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_10_axic_reg_srl_fifo' (8#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:889]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_12_wdata_router' (9#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:4734]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_12_addr_decoder__parameterized0' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:794]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_12_addr_decoder__parameterized0' (9#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:794]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_12_addr_decoder__parameterized1' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:794]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_12_addr_decoder__parameterized1' (9#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:794]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_10_axic_srl_fifo__parameterized0' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:698]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_10_ndeep_srl__parameterized0' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:1134]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_10_ndeep_srl__parameterized0' (9#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:1134]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_10_ndeep_srl__parameterized1' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:1134]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_10_ndeep_srl__parameterized1' (9#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:1134]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_10_ndeep_srl__parameterized2' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:1134]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_10_ndeep_srl__parameterized2' (9#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:1134]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_10_ndeep_srl__parameterized3' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:1134]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_10_ndeep_srl__parameterized3' (9#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:1134]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_10_ndeep_srl__parameterized4' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:1134]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_10_ndeep_srl__parameterized4' (9#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:1134]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_10_ndeep_srl__parameterized5' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:1134]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_10_ndeep_srl__parameterized5' (9#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:1134]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_10_ndeep_srl__parameterized6' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:1134]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_10_ndeep_srl__parameterized6' (9#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:1134]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_10_ndeep_srl__parameterized7' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:1134]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_10_ndeep_srl__parameterized7' (9#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:1134]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_10_axic_srl_fifo__parameterized0' (9#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:698]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_12_wdata_mux' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:4559]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_10_axic_reg_srl_fifo__parameterized0' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:889]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_10_ndeep_srl__parameterized8' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:1134]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_10_ndeep_srl__parameterized8' (9#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:1134]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_10_axic_reg_srl_fifo__parameterized0' (9#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:889]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized1' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized1' (9#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_12_wdata_mux' (10#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:4559]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_11_axi_register_slice' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:791]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' (11#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_11_axic_register_slice' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_11_axic_register_slice' (12#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_11_axic_register_slice__parameterized0' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_11_axic_register_slice__parameterized0' (12#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_11_axic_register_slice__parameterized1' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_11_axic_register_slice__parameterized1' (12#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_11_axic_register_slice__parameterized2' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_11_axic_register_slice__parameterized2' (12#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' (13#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_11_axi_register_slice' (14#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:791]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_12_addr_decoder__parameterized2' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:794]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_12_addr_decoder__parameterized2' (14#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:794]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_12_addr_decoder__parameterized3' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:794]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_12_addr_decoder__parameterized3' (14#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:794]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_10_axic_srl_fifo__parameterized1' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:698]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_10_axic_srl_fifo__parameterized1' (14#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:698]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_12_wdata_mux__parameterized0' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:4559]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_10_axic_reg_srl_fifo__parameterized1' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:889]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_10_axic_reg_srl_fifo__parameterized1' (14#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:889]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized2' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized2' (14#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_12_wdata_mux__parameterized0' (14#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:4559]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_12_decerr_slave' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:3500]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_12_decerr_slave' (15#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:3500]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_12_addr_arbiter' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:423]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized3' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized3' (15#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized4' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized4' (15#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_12_addr_arbiter' (16#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:423]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_12_crossbar' (17#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:2239]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_12_axi_crossbar' (18#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:4882]
+INFO: [Synth 8-256] done synthesizing module 'dma_xbar_0' (19#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_xbar_0/synth/dma_xbar_0.v:59]
+Finished RTL Elaboration : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1211.117 ; gain = 273.559 ; free physical = 121 ; free virtual = 10982
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1211.117 ; gain = 273.559 ; free physical = 148 ; free virtual = 10975
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.11 ; elapsed = 00:00:00.11 . Memory (MB): peak = 1477.977 ; gain = 0.004 ; free physical = 170 ; free virtual = 10658
+Finished Constraint Validation : Time (s): cpu = 00:00:39 ; elapsed = 00:00:43 . Memory (MB): peak = 1477.977 ; gain = 540.418 ; free physical = 163 ; free virtual = 10650
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:39 ; elapsed = 00:00:43 . Memory (MB): peak = 1477.977 ; gain = 540.418 ; free physical = 163 ; free virtual = 10650
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:39 ; elapsed = 00:00:43 . Memory (MB): peak = 1477.977 ; gain = 540.418 ; free physical = 163 ; free virtual = 10650
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:41 ; elapsed = 00:00:45 . Memory (MB): peak = 1477.977 ; gain = 540.418 ; free physical = 137 ; free virtual = 10624
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:44 ; elapsed = 00:00:48 . Memory (MB): peak = 1477.980 ; gain = 540.422 ; free physical = 140 ; free virtual = 10598
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:59 ; elapsed = 00:01:06 . Memory (MB): peak = 1477.980 ; gain = 540.422 ; free physical = 585 ; free virtual = 11008
+Finished Timing Optimization : Time (s): cpu = 00:01:00 ; elapsed = 00:01:07 . Memory (MB): peak = 1477.980 ; gain = 540.422 ; free physical = 572 ; free virtual = 10995
+Finished Technology Mapping : Time (s): cpu = 00:01:01 ; elapsed = 00:01:08 . Memory (MB): peak = 1477.980 ; gain = 540.422 ; free physical = 540 ; free virtual = 10981
+Finished IO Insertion : Time (s): cpu = 00:01:02 ; elapsed = 00:01:09 . Memory (MB): peak = 1477.980 ; gain = 540.422 ; free physical = 549 ; free virtual = 10991
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:02 ; elapsed = 00:01:09 . Memory (MB): peak = 1477.980 ; gain = 540.422 ; free physical = 548 ; free virtual = 10990
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:02 ; elapsed = 00:01:09 . Memory (MB): peak = 1477.980 ; gain = 540.422 ; free physical = 547 ; free virtual = 10989
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:02 ; elapsed = 00:01:09 . Memory (MB): peak = 1477.980 ; gain = 540.422 ; free physical = 547 ; free virtual = 10989
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:02 ; elapsed = 00:01:09 . Memory (MB): peak = 1477.980 ; gain = 540.422 ; free physical = 539 ; free virtual = 10981
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:02 ; elapsed = 00:01:09 . Memory (MB): peak = 1477.980 ; gain = 540.422 ; free physical = 538 ; free virtual = 10980
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |LUT1    |     6|
+|2     |LUT2    |   132|
+|3     |LUT3    |    87|
+|4     |LUT4    |    24|
+|5     |LUT5    |    33|
+|6     |LUT6    |    41|
+|7     |SRLC32E |     2|
+|8     |FDRE    |   326|
+|9     |FDSE    |     9|
++------+--------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:02 ; elapsed = 00:01:09 . Memory (MB): peak = 1477.980 ; gain = 540.422 ; free physical = 537 ; free virtual = 10979
+synth_design: Time (s): cpu = 00:01:00 ; elapsed = 00:01:07 . Memory (MB): peak = 1477.980 ; gain = 472.918 ; free physical = 1077 ; free virtual = 11519

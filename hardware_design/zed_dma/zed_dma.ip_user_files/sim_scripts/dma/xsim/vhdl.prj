@@ -1,0 +1,6 @@
+vhdl xil_defaultlib "../../../bd/dma/ip/dma_axi_dma_0_0/sim/dma_axi_dma_0_0.vhd" 
+vhdl xil_defaultlib "../../../bd/dma/ip/dma_rst_ps7_0_100M_0/sim/dma_rst_ps7_0_100M_0.vhd" 
+vhdl xil_defaultlib "../../../bd/dma/ip/dma_axi_gpio_0_0/sim/dma_axi_gpio_0_0.vhd" 
+vhdl xil_defaultlib "../../../bd/dma/ip/dma_axi_gpio_1_0/sim/dma_axi_gpio_1_0.vhd" 
+
+nosort

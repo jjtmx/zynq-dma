@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]/home/gsc/zynq7000/projects/out_zed/first_stage_boot_loader/FSBL.elf
+	/media/gsc/DA10-2461/design_axi_wrapper_0516_1.bit
+	/home/gsc/zynq7000/projects/out_zed/u-boot/u-boot.elf
+}

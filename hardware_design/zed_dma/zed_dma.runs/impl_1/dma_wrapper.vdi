@@ -1,0 +1,72 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Fri Apr 21 17:25:43 2017
+# Process ID: 29063
+# Current directory: /home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1
+# Command line: vivado -log dma_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source dma_wrapper.tcl -notrace
+# Log file: /home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/dma_wrapper.vdi
+# Journal file: /home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source dma_wrapper.tcl -notrace
+Command: open_checkpoint dma_wrapper_routed.dcp
+
+Starting open_checkpoint Task
+
+Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.02 . Memory (MB): peak = 1003.055 ; gain = 0.000 ; free physical = 223 ; free virtual = 10431
+INFO: [Netlist 29-17] Analyzing 86 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.4
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'dma_i/axi_gpio_1/gpio_io_o[0]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/.Xil/Vivado-23131-gsc-250/dcp_8/dma_axi_gpio_1_0.edf:5159]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'dma_i/axi_gpio_1/gpio_io_o[1]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/.Xil/Vivado-23131-gsc-250/dcp_8/dma_axi_gpio_1_0.edf:5166]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'dma_i/axi_gpio_1/gpio_io_o[2]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/.Xil/Vivado-23131-gsc-250/dcp_8/dma_axi_gpio_1_0.edf:5173]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'dma_i/axi_gpio_1/gpio_io_o[3]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/.Xil/Vivado-23131-gsc-250/dcp_8/dma_axi_gpio_1_0.edf:5180]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'dma_i/axi_gpio_1/gpio_io_o[4]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/.Xil/Vivado-23131-gsc-250/dcp_8/dma_axi_gpio_1_0.edf:5187]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'dma_i/axi_gpio_1/gpio_io_o[5]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/.Xil/Vivado-23131-gsc-250/dcp_8/dma_axi_gpio_1_0.edf:5194]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'dma_i/axi_gpio_1/gpio_io_o[6]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/.Xil/Vivado-23131-gsc-250/dcp_8/dma_axi_gpio_1_0.edf:5201]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'dma_i/axi_gpio_1/gpio_io_o[7]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/.Xil/Vivado-23131-gsc-250/dcp_8/dma_axi_gpio_1_0.edf:5208]
+Parsing XDC File [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/.Xil/Vivado-29063-gsc-250/dcp/dma_wrapper_early.xdc]
+Finished Parsing XDC File [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/.Xil/Vivado-29063-gsc-250/dcp/dma_wrapper_early.xdc]
+Parsing XDC File [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/.Xil/Vivado-29063-gsc-250/dcp/dma_wrapper.xdc]
+Finished Parsing XDC File [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/.Xil/Vivado-29063-gsc-250/dcp/dma_wrapper.xdc]
+Parsing XDC File [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/.Xil/Vivado-29063-gsc-250/dcp/dma_wrapper_late.xdc]
+Finished Parsing XDC File [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/.Xil/Vivado-29063-gsc-250/dcp/dma_wrapper_late.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00.50 ; elapsed = 00:00:00.50 . Memory (MB): peak = 1290.168 ; gain = 9.000 ; free physical = 134 ; free virtual = 10184
+Restored from archive | CPU: 0.500000 secs | Memory: 6.626122 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.50 ; elapsed = 00:00:00.50 . Memory (MB): peak = 1290.168 ; gain = 9.000 ; free physical = 134 ; free virtual = 10184
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 5 instances were transformed.
+  RAM32M => RAM32M (RAMS32, RAMS32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32): 4 instances
+  RAM32X1D => RAM32X1D (RAMD32, RAMD32): 1 instances
+
+INFO: [Project 1-604] Checkpoint was created with Vivado v2016.4 (64-bit) build 1756540
+open_checkpoint: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1290.168 ; gain = 287.117 ; free physical = 148 ; free virtual = 10184
+Command: write_bitstream -force -no_partial_bitfile dma_wrapper.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command write_bitstream
+INFO: [DRC 23-27] Running DRC with 4 threads
+WARNING: [DRC 23-20] Rule violation (RTSTAT-10) No routable loads - 33 net(s) have no routable loads. The problem bus(es) and/or net(s) are dma_i/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, dma_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, dma_i/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, dma_i/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, dma_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, dma_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i, dma_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i, dma_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, dma_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, dma_i/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, dma_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, dma_i/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, dma_i/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, dma_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_i, dma_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_i (the first 15 of 33 listed).
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 1 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./dma_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-120] WebTalk data collection is mandatory when using a WebPACK part without a full Vivado license. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-186] '/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/usage_statistics_webtalk.xml' has been successfully sent to Xilinx on Fri Apr 21 17:26:21 2017. For additional details about this file, please refer to the WebTalk help file at /opt/Xilinx/Vivado/2016.4/doc/webtalk_introduction.html.
+INFO: [Common 17-83] Releasing license: Implementation
+15 Infos, 9 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1709.008 ; gain = 418.840 ; free physical = 242 ; free virtual = 9889
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 21 17:26:21 2017...

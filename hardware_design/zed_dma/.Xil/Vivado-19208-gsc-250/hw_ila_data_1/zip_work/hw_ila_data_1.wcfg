@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1001fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="131"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="42" />
+   <wvobject type="array" fp_name="dma_i/system_ila/inst/net_slot_0_axis_tdata">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_0_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axis_tdata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="dma_i/system_ila/inst/net_slot_0_axis_tkeep">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_0_axis_tkeep[3:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axis_tkeep[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="dma_i/system_ila/inst/net_slot_0_axis_tvalid">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_0_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axis_tvalid</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="dma_i/system_ila/inst/net_slot_0_axis_tready">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_0_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axis_tready</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="dma_i/system_ila/inst/net_slot_0_axis_tlast">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_0_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axis_tlast</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="dma_i/system_ila/inst/net_slot_1_axi_araddr">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_1_axi_araddr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_1_axi_araddr[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="dma_i/system_ila/inst/net_slot_1_axi_arprot">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_1_axi_arprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_1_axi_arprot[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="dma_i/system_ila/inst/net_slot_1_axi_awaddr">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_1_axi_awaddr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_1_axi_awaddr[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="dma_i/system_ila/inst/net_slot_1_axi_awprot">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_1_axi_awprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_1_axi_awprot[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="dma_i/system_ila/inst/net_slot_1_axi_bresp">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_1_axi_bresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_1_axi_bresp[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="dma_i/system_ila/inst/net_slot_1_axi_rdata">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_1_axi_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_1_axi_rdata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="dma_i/system_ila/inst/net_slot_1_axi_rresp">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_1_axi_rresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_1_axi_rresp[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="dma_i/system_ila/inst/net_slot_1_axi_wdata">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_1_axi_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_1_axi_wdata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="dma_i/system_ila/inst/net_slot_1_axi_wstrb">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_1_axi_wstrb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_1_axi_wstrb[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="dma_i/system_ila/inst/net_slot_1_axi_aw_ctrl">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_1_axi_aw_ctrl[1:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_1_axi_aw_ctrl[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="dma_i/system_ila/inst/net_slot_1_axi_w_ctrl">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_1_axi_w_ctrl[1:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_1_axi_w_ctrl[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="dma_i/system_ila/inst/net_slot_1_axi_b_ctrl">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_1_axi_b_ctrl[1:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_1_axi_b_ctrl[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="dma_i/system_ila/inst/net_slot_1_axi_ar_ctrl">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_1_axi_ar_ctrl[1:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_1_axi_ar_ctrl[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="dma_i/system_ila/inst/net_slot_1_axi_r_ctrl">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_1_axi_r_ctrl[1:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_1_axi_r_ctrl[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="dma_i/system_ila/inst/net_slot_2_axi_araddr">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_2_axi_araddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_2_axi_araddr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="dma_i/system_ila/inst/net_slot_2_axi_arid">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_2_axi_arid</obj_property>
+      <obj_property name="ObjectShortName">net_slot_2_axi_arid</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="dma_i/system_ila/inst/net_slot_2_axi_arlen">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_2_axi_arlen[3:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_2_axi_arlen[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="dma_i/system_ila/inst/net_slot_2_axi_arprot">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_2_axi_arprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_2_axi_arprot[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="dma_i/system_ila/inst/net_slot_2_axi_arsize">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_2_axi_arsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_2_axi_arsize[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="dma_i/system_ila/inst/net_slot_2_axi_awaddr">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_2_axi_awaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_2_axi_awaddr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="dma_i/system_ila/inst/net_slot_2_axi_awid">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_2_axi_awid</obj_property>
+      <obj_property name="ObjectShortName">net_slot_2_axi_awid</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="dma_i/system_ila/inst/net_slot_2_axi_awlen">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_2_axi_awlen[3:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_2_axi_awlen[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="dma_i/system_ila/inst/net_slot_2_axi_awprot">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_2_axi_awprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_2_axi_awprot[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="dma_i/system_ila/inst/net_slot_2_axi_awsize">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_2_axi_awsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_2_axi_awsize[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="dma_i/system_ila/inst/net_slot_2_axi_bid">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_2_axi_bid</obj_property>
+      <obj_property name="ObjectShortName">net_slot_2_axi_bid</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="dma_i/system_ila/inst/net_slot_2_axi_bresp">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_2_axi_bresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_2_axi_bresp[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="dma_i/system_ila/inst/net_slot_2_axi_rdata">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_2_axi_rdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_2_axi_rdata[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="dma_i/system_ila/inst/net_slot_2_axi_rid">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_2_axi_rid</obj_property>
+      <obj_property name="ObjectShortName">net_slot_2_axi_rid</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="dma_i/system_ila/inst/net_slot_2_axi_rresp">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_2_axi_rresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_2_axi_rresp[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="dma_i/system_ila/inst/net_slot_2_axi_wdata">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_2_axi_wdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_2_axi_wdata[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="dma_i/system_ila/inst/net_slot_2_axi_wid">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_2_axi_wid</obj_property>
+      <obj_property name="ObjectShortName">net_slot_2_axi_wid</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="dma_i/system_ila/inst/net_slot_2_axi_wstrb">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_2_axi_wstrb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_2_axi_wstrb[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="dma_i/system_ila/inst/net_slot_2_axi_aw_ctrl">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_2_axi_aw_ctrl[1:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_2_axi_aw_ctrl[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="dma_i/system_ila/inst/net_slot_2_axi_w_ctrl">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_2_axi_w_ctrl[2:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_2_axi_w_ctrl[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="dma_i/system_ila/inst/net_slot_2_axi_b_ctrl">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_2_axi_b_ctrl[1:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_2_axi_b_ctrl[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="dma_i/system_ila/inst/net_slot_2_axi_ar_ctrl">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_2_axi_ar_ctrl[1:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_2_axi_ar_ctrl[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="dma_i/system_ila/inst/net_slot_2_axi_r_ctrl">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_2_axi_r_ctrl[2:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_2_axi_r_ctrl[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+</wave_config>

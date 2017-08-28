@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# 
+# Start of session at: Tue Apr 18 15:44:12 2017
+# Process ID: 14682
+# Current directory: /home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.sdk/webtalk
+# Command line: wbtcv -mode batch -source sdk_webtalk.tcl
+# Log file: /home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.sdk/webtalk/webtalk.log
+# Journal file: /home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.sdk/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

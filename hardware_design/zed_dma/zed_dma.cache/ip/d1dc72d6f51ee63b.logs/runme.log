@@ -1,0 +1,69 @@
+
+*** Running vivado
+    with args -log dma_s00_mmu_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source dma_s00_mmu_0.tcl
+
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source dma_s00_mmu_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1074.641 ; gain = 137.082 ; free physical = 129 ; free virtual = 11642
+INFO: [Synth 8-638] synthesizing module 'dma_s00_mmu_0' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_s00_mmu_0/synth/dma_s00_mmu_0.v:58]
+INFO: [Synth 8-638] synthesizing module 'axi_mmu_v2_1_9_top' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/a2d8/hdl/axi_mmu_v2_1_vl_rfs.v:557]
+INFO: [Synth 8-638] synthesizing module 'axi_mmu_v2_1_9_addr_decoder' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/a2d8/hdl/axi_mmu_v2_1_vl_rfs.v:63]
+INFO: [Synth 8-256] done synthesizing module 'axi_mmu_v2_1_9_addr_decoder' (1#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/a2d8/hdl/axi_mmu_v2_1_vl_rfs.v:63]
+INFO: [Synth 8-638] synthesizing module 'axi_mmu_v2_1_9_decerr_slave' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/a2d8/hdl/axi_mmu_v2_1_vl_rfs.v:201]
+INFO: [Synth 8-256] done synthesizing module 'axi_mmu_v2_1_9_decerr_slave' (2#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/a2d8/hdl/axi_mmu_v2_1_vl_rfs.v:201]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_11_axi_register_slice' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:791]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' (3#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_11_axic_register_slice' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_11_axic_register_slice' (4#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_11_axic_register_slice__parameterized0' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_11_axic_register_slice__parameterized0' (4#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_11_axic_register_slice__parameterized1' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_11_axic_register_slice__parameterized1' (4#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_11_axic_register_slice__parameterized2' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_11_axic_register_slice__parameterized2' (4#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_11_axic_register_slice__parameterized3' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_11_axic_register_slice__parameterized3' (4#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' (5#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_11_axi_register_slice' (6#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:791]
+INFO: [Synth 8-256] done synthesizing module 'axi_mmu_v2_1_9_top' (7#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ipshared/a2d8/hdl/axi_mmu_v2_1_vl_rfs.v:557]
+INFO: [Synth 8-256] done synthesizing module 'dma_s00_mmu_0' (8#1) [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_s00_mmu_0/synth/dma_s00_mmu_0.v:58]
+Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1116.117 ; gain = 178.559 ; free physical = 142 ; free virtual = 11531
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1116.117 ; gain = 178.559 ; free physical = 171 ; free virtual = 11530
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.04 . Memory (MB): peak = 1457.688 ; gain = 0.004 ; free physical = 147 ; free virtual = 10976
+Finished Constraint Validation : Time (s): cpu = 00:00:28 ; elapsed = 00:00:33 . Memory (MB): peak = 1457.688 ; gain = 520.129 ; free physical = 137 ; free virtual = 10880
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:28 ; elapsed = 00:00:33 . Memory (MB): peak = 1457.688 ; gain = 520.129 ; free physical = 136 ; free virtual = 10879
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:33 . Memory (MB): peak = 1457.688 ; gain = 520.129 ; free physical = 133 ; free virtual = 10876
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:29 ; elapsed = 00:00:33 . Memory (MB): peak = 1457.688 ; gain = 520.129 ; free physical = 122 ; free virtual = 10831
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:34 . Memory (MB): peak = 1457.691 ; gain = 520.133 ; free physical = 125 ; free virtual = 10756
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:44 ; elapsed = 00:00:51 . Memory (MB): peak = 1457.691 ; gain = 520.133 ; free physical = 137 ; free virtual = 10571
+Finished Timing Optimization : Time (s): cpu = 00:00:44 ; elapsed = 00:00:52 . Memory (MB): peak = 1457.691 ; gain = 520.133 ; free physical = 127 ; free virtual = 10560
+Finished Technology Mapping : Time (s): cpu = 00:00:44 ; elapsed = 00:00:52 . Memory (MB): peak = 1457.691 ; gain = 520.133 ; free physical = 118 ; free virtual = 10552
+Finished IO Insertion : Time (s): cpu = 00:00:45 ; elapsed = 00:00:53 . Memory (MB): peak = 1457.691 ; gain = 520.133 ; free physical = 136 ; free virtual = 10551
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:45 ; elapsed = 00:00:53 . Memory (MB): peak = 1457.691 ; gain = 520.133 ; free physical = 136 ; free virtual = 10551
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:45 ; elapsed = 00:00:53 . Memory (MB): peak = 1457.691 ; gain = 520.133 ; free physical = 136 ; free virtual = 10551
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:45 ; elapsed = 00:00:53 . Memory (MB): peak = 1457.691 ; gain = 520.133 ; free physical = 136 ; free virtual = 10551
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:46 ; elapsed = 00:00:53 . Memory (MB): peak = 1457.691 ; gain = 520.133 ; free physical = 136 ; free virtual = 10551
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:46 ; elapsed = 00:00:53 . Memory (MB): peak = 1457.691 ; gain = 520.133 ; free physical = 136 ; free virtual = 10551
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     3|
+|2     |LUT2 |     5|
+|3     |LUT3 |    37|
+|4     |LUT4 |    12|
+|5     |LUT5 |     8|
+|6     |LUT6 |    13|
+|7     |FDRE |    82|
++------+-----+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:46 ; elapsed = 00:00:53 . Memory (MB): peak = 1457.691 ; gain = 520.133 ; free physical = 136 ; free virtual = 10551
+synth_design: Time (s): cpu = 00:00:44 ; elapsed = 00:00:52 . Memory (MB): peak = 1457.691 ; gain = 452.629 ; free physical = 152 ; free virtual = 10557

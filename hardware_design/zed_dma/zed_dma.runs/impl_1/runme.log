@@ -1,0 +1,623 @@
+
+*** Running vivado
+    with args -log dma_wrapper.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source dma_wrapper.tcl -notrace
+
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source dma_wrapper.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Project 1-454] Reading design checkpoint '/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_I2S_AXI4_0_0/dma_I2S_AXI4_0_0.dcp' for cell 'dma_i/I2S_AXI4_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_axi_dma_0_0/dma_axi_dma_0_0.dcp' for cell 'dma_i/axi_dma_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_axi_gpio_0_0/dma_axi_gpio_0_0.dcp' for cell 'dma_i/axi_gpio_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_axi_gpio_1_0/dma_axi_gpio_1_0.dcp' for cell 'dma_i/axi_gpio_1'
+INFO: [Project 1-454] Reading design checkpoint '/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_processing_system7_0_0/dma_processing_system7_0_0.dcp' for cell 'dma_i/processing_system7_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_rst_ps7_0_100M_0/dma_rst_ps7_0_100M_0.dcp' for cell 'dma_i/rst_ps7_0_100M'
+INFO: [Project 1-454] Reading design checkpoint '/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_xlconcat_0_0/dma_xlconcat_0_0.dcp' for cell 'dma_i/xlconcat_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_s01_mmu_0/dma_s01_mmu_0.dcp' for cell 'dma_i/axi_mem_intercon/s01_mmu'
+INFO: [Project 1-454] Reading design checkpoint '/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_xbar_0/dma_xbar_0.dcp' for cell 'dma_i/axi_mem_intercon/xbar'
+INFO: [Project 1-454] Reading design checkpoint '/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_auto_pc_0/dma_auto_pc_0.dcp' for cell 'dma_i/axi_mem_intercon/m00_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint '/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_auto_us_0/dma_auto_us_0.dcp' for cell 'dma_i/axi_mem_intercon/s00_couplers/auto_us'
+INFO: [Project 1-454] Reading design checkpoint '/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_auto_us_1/dma_auto_us_1.dcp' for cell 'dma_i/axi_mem_intercon/s01_couplers/auto_us'
+INFO: [Project 1-454] Reading design checkpoint '/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_xbar_1/dma_xbar_1.dcp' for cell 'dma_i/ps7_0_axi_periph/xbar'
+INFO: [Project 1-454] Reading design checkpoint '/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_auto_pc_1/dma_auto_pc_1.dcp' for cell 'dma_i/ps7_0_axi_periph/s00_couplers/auto_pc'
+INFO: [Netlist 29-17] Analyzing 94 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.4
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'dma_i/axi_gpio_1/gpio_io_o[0]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/.Xil/Vivado-23131-gsc-250/dcp_8/dma_axi_gpio_1_0.edf:5159]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'dma_i/axi_gpio_1/gpio_io_o[1]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/.Xil/Vivado-23131-gsc-250/dcp_8/dma_axi_gpio_1_0.edf:5166]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'dma_i/axi_gpio_1/gpio_io_o[2]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/.Xil/Vivado-23131-gsc-250/dcp_8/dma_axi_gpio_1_0.edf:5173]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'dma_i/axi_gpio_1/gpio_io_o[3]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/.Xil/Vivado-23131-gsc-250/dcp_8/dma_axi_gpio_1_0.edf:5180]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'dma_i/axi_gpio_1/gpio_io_o[4]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/.Xil/Vivado-23131-gsc-250/dcp_8/dma_axi_gpio_1_0.edf:5187]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'dma_i/axi_gpio_1/gpio_io_o[5]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/.Xil/Vivado-23131-gsc-250/dcp_8/dma_axi_gpio_1_0.edf:5194]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'dma_i/axi_gpio_1/gpio_io_o[6]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/.Xil/Vivado-23131-gsc-250/dcp_8/dma_axi_gpio_1_0.edf:5201]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'dma_i/axi_gpio_1/gpio_io_o[7]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/.Xil/Vivado-23131-gsc-250/dcp_8/dma_axi_gpio_1_0.edf:5208]
+Parsing XDC File [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_processing_system7_0_0/dma_processing_system7_0_0.xdc] for cell 'dma_i/processing_system7_0/inst'
+WARNING: [Vivado 12-2489] -input_jitter contains time 1.259970 which will be rounded to 1.260 to ensure it is an integer multiple of 1 picosecond [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_processing_system7_0_0/dma_processing_system7_0_0.xdc:21]
+Finished Parsing XDC File [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_processing_system7_0_0/dma_processing_system7_0_0.xdc] for cell 'dma_i/processing_system7_0/inst'
+Parsing XDC File [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_axi_dma_0_0/dma_axi_dma_0_0.xdc] for cell 'dma_i/axi_dma_0/U0'
+Finished Parsing XDC File [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_axi_dma_0_0/dma_axi_dma_0_0.xdc] for cell 'dma_i/axi_dma_0/U0'
+Parsing XDC File [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_rst_ps7_0_100M_0/dma_rst_ps7_0_100M_0_board.xdc] for cell 'dma_i/rst_ps7_0_100M/U0'
+Finished Parsing XDC File [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_rst_ps7_0_100M_0/dma_rst_ps7_0_100M_0_board.xdc] for cell 'dma_i/rst_ps7_0_100M/U0'
+Parsing XDC File [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_rst_ps7_0_100M_0/dma_rst_ps7_0_100M_0.xdc] for cell 'dma_i/rst_ps7_0_100M/U0'
+Finished Parsing XDC File [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_rst_ps7_0_100M_0/dma_rst_ps7_0_100M_0.xdc] for cell 'dma_i/rst_ps7_0_100M/U0'
+Parsing XDC File [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_axi_gpio_0_0/dma_axi_gpio_0_0_board.xdc] for cell 'dma_i/axi_gpio_0/U0'
+Finished Parsing XDC File [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_axi_gpio_0_0/dma_axi_gpio_0_0_board.xdc] for cell 'dma_i/axi_gpio_0/U0'
+Parsing XDC File [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_axi_gpio_0_0/dma_axi_gpio_0_0.xdc] for cell 'dma_i/axi_gpio_0/U0'
+Finished Parsing XDC File [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_axi_gpio_0_0/dma_axi_gpio_0_0.xdc] for cell 'dma_i/axi_gpio_0/U0'
+Parsing XDC File [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_axi_gpio_1_0/dma_axi_gpio_1_0_board.xdc] for cell 'dma_i/axi_gpio_1/U0'
+Finished Parsing XDC File [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_axi_gpio_1_0/dma_axi_gpio_1_0_board.xdc] for cell 'dma_i/axi_gpio_1/U0'
+Parsing XDC File [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_axi_gpio_1_0/dma_axi_gpio_1_0.xdc] for cell 'dma_i/axi_gpio_1/U0'
+Finished Parsing XDC File [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_axi_gpio_1_0/dma_axi_gpio_1_0.xdc] for cell 'dma_i/axi_gpio_1/U0'
+Parsing XDC File [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/constrs_2/new/dma_wrapper.xdc]
+WARNING: [Vivado 12-584] No ports matched 'btn5_tri_i[3]'. [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/constrs_2/new/dma_wrapper.xdc:1]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/constrs_2/new/dma_wrapper.xdc:1]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn5_tri_i[3]'. [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/constrs_2/new/dma_wrapper.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/constrs_2/new/dma_wrapper.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'iis_en_n'. [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/constrs_2/new/dma_wrapper.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/constrs_2/new/dma_wrapper.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'iis_en_n'. [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/constrs_2/new/dma_wrapper.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/constrs_2/new/dma_wrapper.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-750] There are no ChipScope debug cores in this design. [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/constrs_2/new/dma_wrapper.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/constrs_2/new/dma_wrapper.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-750] There are no ChipScope debug cores in this design. [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/constrs_2/new/dma_wrapper.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/constrs_2/new/dma_wrapper.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-750] There are no ChipScope debug cores in this design. [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/constrs_2/new/dma_wrapper.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/constrs_2/new/dma_wrapper.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'clk'. [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/constrs_2/new/dma_wrapper.xdc:26]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'dbg_hub' was not found. [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/constrs_2/new/dma_wrapper.xdc:26]
+Finished Parsing XDC File [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/constrs_2/new/dma_wrapper.xdc]
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_processing_system7_0_0/dma_processing_system7_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_axi_dma_0_0/dma_axi_dma_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_rst_ps7_0_100M_0/dma_rst_ps7_0_100M_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_axi_gpio_0_0/dma_axi_gpio_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_xbar_1/dma_xbar_1.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_axi_gpio_1_0/dma_axi_gpio_1_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_xbar_0/dma_xbar_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_auto_pc_0/dma_auto_pc_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_auto_us_0/dma_auto_us_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_auto_us_1/dma_auto_us_1.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_s01_mmu_0/dma_s01_mmu_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_auto_pc_1/dma_auto_pc_1.dcp'
+Parsing XDC File [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_axi_dma_0_0/dma_axi_dma_0_0_clocks.xdc] for cell 'dma_i/axi_dma_0/U0'
+Finished Parsing XDC File [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_axi_dma_0_0/dma_axi_dma_0_0_clocks.xdc] for cell 'dma_i/axi_dma_0/U0'
+Parsing XDC File [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_auto_us_0/dma_auto_us_0_clocks.xdc] for cell 'dma_i/axi_mem_intercon/s00_couplers/auto_us/inst'
+Finished Parsing XDC File [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_auto_us_0/dma_auto_us_0_clocks.xdc] for cell 'dma_i/axi_mem_intercon/s00_couplers/auto_us/inst'
+Parsing XDC File [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_auto_us_1/dma_auto_us_1_clocks.xdc] for cell 'dma_i/axi_mem_intercon/s01_couplers/auto_us/inst'
+Finished Parsing XDC File [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.srcs/sources_1/bd/dma/ip/dma_auto_us_1/dma_auto_us_1_clocks.xdc] for cell 'dma_i/axi_mem_intercon/s01_couplers/auto_us/inst'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 5 instances were transformed.
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 4 instances
+  RAM32X1D => RAM32X1D (RAMD32, RAMD32): 1 instances
+
+link_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1317.719 ; gain = 312.648 ; free physical = 706 ; free virtual = 10608
+CRITICAL WARNING: [Pfi 67-13] Hardware Handoff file dma_processing_system7_0_0.hwdef does not exist for instance dma_i/processing_system7_0/inst
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.68 . Memory (MB): peak = 1367.738 ; gain = 50.012 ; free physical = 699 ; free virtual = 10602
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+Implement Debug Cores | Checksum: 1ddce9e92
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 2 inverter(s) to 2 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 1cb649a62
+
+Time (s): cpu = 00:00:00.88 ; elapsed = 00:00:00.89 . Memory (MB): peak = 1803.230 ; gain = 0.000 ; free physical = 254 ; free virtual = 10085
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 7 inverter(s) to 16 load pin(s).
+INFO: [Opt 31-10] Eliminated 595 cells.
+Phase 2 Constant propagation | Checksum: 203937ea9
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1803.230 ; gain = 0.000 ; free physical = 289 ; free virtual = 10119
+
+Phase 3 Sweep
+INFO: [Opt 31-12] Eliminated 822 unconnected nets.
+INFO: [Opt 31-11] Eliminated 539 unconnected cells.
+Phase 3 Sweep | Checksum: 1ad6d381b
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1803.230 ; gain = 0.000 ; free physical = 272 ; free virtual = 10103
+
+Phase 4 BUFG optimization
+INFO: [Opt 31-12] Eliminated 0 unconnected nets.
+INFO: [Opt 31-11] Eliminated 0 unconnected cells.
+Phase 4 BUFG optimization | Checksum: 156caf149
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1803.230 ; gain = 0.000 ; free physical = 271 ; free virtual = 10102
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 1803.230 ; gain = 0.000 ; free physical = 271 ; free virtual = 10102
+Ending Logic Optimization Task | Checksum: 156caf149
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1803.230 ; gain = 0.000 ; free physical = 271 ; free virtual = 10102
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 2 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 3 newly gated: 0 Total Ports: 4
+Ending PowerOpt Patch Enables Task | Checksum: 1de2ae4dd
+
+Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.05 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 175 ; free virtual = 9864
+Ending Power Optimization Task | Checksum: 1de2ae4dd
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 2071.586 ; gain = 268.355 ; free physical = 175 ; free virtual = 9864
+INFO: [Common 17-83] Releasing license: Implementation
+53 Infos, 17 Warnings, 9 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:22 . Memory (MB): peak = 2071.586 ; gain = 753.859 ; free physical = 175 ; free virtual = 9864
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.16 ; elapsed = 00:00:00.06 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 172 ; free virtual = 9864
+INFO: [Common 17-1381] The checkpoint '/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/dma_wrapper_opt.dcp' has been generated.
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/dma_wrapper_drc_opted.rpt.
+INFO: [Chipscope 16-241] No debug cores found in the current design.
+Before running the implement_debug_core command, either use the Set Up Debug wizard (GUI mode)
+or use the create_debug_core and connect_debug_core Tcl commands to insert debug cores into the design.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 4 CPUs
+
+Phase 1 Placer Initialization
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 167 ; free virtual = 9869
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 166 ; free virtual = 9868
+
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 120ee55e4
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 168 ; free virtual = 9871
+
+Phase 1.2 Build Placer Netlist Model
+Phase 1.2 Build Placer Netlist Model | Checksum: 158162b42
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 179 ; free virtual = 9884
+
+Phase 1.3 Constrain Clocks/Macros
+Phase 1.3 Constrain Clocks/Macros | Checksum: 158162b42
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 179 ; free virtual = 9884
+Phase 1 Placer Initialization | Checksum: 158162b42
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 178 ; free virtual = 9883
+
+Phase 2 Global Placement
+Phase 2 Global Placement | Checksum: 179a7c762
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:10 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 170 ; free virtual = 9875
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 179a7c762
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:10 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 170 ; free virtual = 9875
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 1fb69ddd9
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:11 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 170 ; free virtual = 9875
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 154188b05
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:11 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 170 ; free virtual = 9875
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 245be8c7d
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:11 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 170 ; free virtual = 9875
+
+Phase 3.5 Timing Path Optimizer
+Phase 3.5 Timing Path Optimizer | Checksum: 16c341135
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:12 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 169 ; free virtual = 9874
+
+Phase 3.6 Small Shape Detail Placement
+Phase 3.6 Small Shape Detail Placement | Checksum: 19601c956
+
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:14 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 378 ; free virtual = 10131
+
+Phase 3.7 Re-assign LUT pins
+Phase 3.7 Re-assign LUT pins | Checksum: 120be420f
+
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:14 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 408 ; free virtual = 10131
+
+Phase 3.8 Pipeline Register Optimization
+Phase 3.8 Pipeline Register Optimization | Checksum: 120be420f
+
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:14 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 408 ; free virtual = 10131
+Phase 3 Detail Placement | Checksum: 120be420f
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:14 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 408 ; free virtual = 10131
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=1.565. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: 1015a5747
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:16 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 414 ; free virtual = 10129
+Phase 4.1 Post Commit Optimization | Checksum: 1015a5747
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:16 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 414 ; free virtual = 10129
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 1015a5747
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:16 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 414 ; free virtual = 10129
+
+Phase 4.3 Placer Reporting
+Phase 4.3 Placer Reporting | Checksum: 1015a5747
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:16 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 414 ; free virtual = 10129
+
+Phase 4.4 Final Placement Cleanup
+Phase 4.4 Final Placement Cleanup | Checksum: eccb51c0
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:16 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 414 ; free virtual = 10129
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: eccb51c0
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:16 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 414 ; free virtual = 10129
+Ending Placer Task | Checksum: 285d415f
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:16 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 414 ; free virtual = 10129
+INFO: [Common 17-83] Releasing license: Implementation
+71 Infos, 17 Warnings, 9 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:19 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 414 ; free virtual = 10129
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.76 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 399 ; free virtual = 10130
+INFO: [Common 17-1381] The checkpoint '/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/dma_wrapper_placed.dcp' has been generated.
+report_io: Time (s): cpu = 00:00:00.16 ; elapsed = 00:00:00.21 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 402 ; free virtual = 10126
+report_utilization: Time (s): cpu = 00:00:00.16 ; elapsed = 00:00:00.20 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 401 ; free virtual = 10124
+report_control_sets: Time (s): cpu = 00:00:00.11 ; elapsed = 00:00:00.16 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 401 ; free virtual = 10124
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 4 CPUs
+Checksum: PlaceDB: 68c4f26 ConstDB: 0 ShapeSum: 21d0f239 RouteDB: 0
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: 13dc05143
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:17 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 414 ; free virtual = 10122
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: 13dc05143
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:17 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 414 ; free virtual = 10122
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: 13dc05143
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:17 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 414 ; free virtual = 10122
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: 13dc05143
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:17 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 414 ; free virtual = 10122
+ Number of Nodes with overlaps = 0
+
+Phase 2.4 Update Timing
+Phase 2.4 Update Timing | Checksum: a16f33eb
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:19 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 395 ; free virtual = 10103
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.705  | TNS=0.000  | WHS=-0.223 | THS=-110.896|
+
+Phase 2 Router Initialization | Checksum: 1334d0e35
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:19 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 395 ; free virtual = 10103
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 1fbf9646c
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:20 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 394 ; free virtual = 10103
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 579
+ Number of Nodes with overlaps = 18
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 0
+
+Phase 4.1.1 Update Timing
+Phase 4.1.1 Update Timing | Checksum: 107ec4fef
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:21 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 396 ; free virtual = 10104
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.486  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 1234c83da
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:22 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 396 ; free virtual = 10104
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 3
+ Number of Nodes with overlaps = 0
+
+Phase 4.2.1 Update Timing
+Phase 4.2.1 Update Timing | Checksum: 29b44c481
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:22 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 396 ; free virtual = 10104
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.716  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: 1094aa632
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:22 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 396 ; free virtual = 10104
+
+Phase 4.3 Global Iteration 2
+ Number of Nodes with overlaps = 0
+
+Phase 4.3.1 Update Timing
+Phase 4.3.1 Update Timing | Checksum: 2499935ff
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:22 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 396 ; free virtual = 10104
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.603  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.3 Global Iteration 2 | Checksum: 2499935ff
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:22 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 396 ; free virtual = 10104
+Phase 4 Rip-up And Reroute | Checksum: 2499935ff
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:22 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 396 ; free virtual = 10104
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+Phase 5.1 Delay CleanUp | Checksum: 2499935ff
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:22 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 396 ; free virtual = 10104
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 2499935ff
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:22 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 396 ; free virtual = 10104
+Phase 5 Delay and Skew Optimization | Checksum: 2499935ff
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:22 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 396 ; free virtual = 10104
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 21f01d9cc
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:22 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 408 ; free virtual = 10104
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.603  | TNS=0.000  | WHS=0.024  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: 1b5ca305c
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:22 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 408 ; free virtual = 10103
+Phase 6 Post Hold Fix | Checksum: 1b5ca305c
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:22 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 408 ; free virtual = 10104
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.936419 %
+  Global Horizontal Routing Utilization  = 1.15112 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 2648f3a42
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:22 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 408 ; free virtual = 10104
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 2648f3a42
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:22 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 408 ; free virtual = 10104
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 26049aa41
+
+Time (s): cpu = 00:00:38 ; elapsed = 00:00:23 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 409 ; free virtual = 10104
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=1.603  | TNS=0.000  | WHS=0.024  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 10 Post Router Timing | Checksum: 26049aa41
+
+Time (s): cpu = 00:00:38 ; elapsed = 00:00:23 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 409 ; free virtual = 10104
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:00:38 ; elapsed = 00:00:23 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 409 ; free virtual = 10104
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+86 Infos, 17 Warnings, 9 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:43 ; elapsed = 00:00:25 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 409 ; free virtual = 10104
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.48 . Memory (MB): peak = 2071.586 ; gain = 0.000 ; free physical = 397 ; free virtual = 10105
+INFO: [Common 17-1381] The checkpoint '/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/dma_wrapper_routed.dcp' has been generated.
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/dma_wrapper_drc_routed.rpt.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 4 threads
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file /home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/dma_wrapper_methodology_drc_routed.rpt.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 4 CPUs
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Command: report_power -file dma_wrapper_power_routed.rpt -pb dma_wrapper_power_summary_routed.pb -rpx dma_wrapper_power_routed.rpx
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+96 Infos, 18 Warnings, 9 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+Command: write_bitstream -force -no_partial_bitfile dma_wrapper.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command write_bitstream
+INFO: [DRC 23-27] Running DRC with 4 threads
+WARNING: [DRC 23-20] Rule violation (RTSTAT-10) No routable loads - 33 net(s) have no routable loads. The problem bus(es) and/or net(s) are dma_i/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, dma_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, dma_i/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, dma_i/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, dma_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, dma_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i, dma_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i, dma_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, dma_i/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, dma_i/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, dma_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, dma_i/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, dma_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, dma_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_i, dma_i/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_i (the first 15 of 33 listed).
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 1 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./dma_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-120] WebTalk data collection is mandatory when using a WebPACK part without a full Vivado license. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-186] '/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/usage_statistics_webtalk.xml' has been successfully sent to Xilinx on Fri Apr 21 16:14:53 2017. For additional details about this file, please refer to the WebTalk help file at /opt/Xilinx/Vivado/2016.4/doc/webtalk_introduction.html.
+INFO: [Common 17-83] Releasing license: Implementation
+104 Infos, 19 Warnings, 9 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 2386.301 ; gain = 312.652 ; free physical = 162 ; free virtual = 9758
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 21 16:14:53 2017...
+
+*** Running vivado
+    with args -log dma_wrapper.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source dma_wrapper.tcl -notrace
+
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source dma_wrapper.tcl -notrace
+Command: open_checkpoint dma_wrapper_routed.dcp
+
+Starting open_checkpoint Task
+
+Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.02 . Memory (MB): peak = 1003.055 ; gain = 0.000 ; free physical = 223 ; free virtual = 10431
+INFO: [Netlist 29-17] Analyzing 86 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.4
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'dma_i/axi_gpio_1/gpio_io_o[0]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/.Xil/Vivado-23131-gsc-250/dcp_8/dma_axi_gpio_1_0.edf:5159]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'dma_i/axi_gpio_1/gpio_io_o[1]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/.Xil/Vivado-23131-gsc-250/dcp_8/dma_axi_gpio_1_0.edf:5166]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'dma_i/axi_gpio_1/gpio_io_o[2]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/.Xil/Vivado-23131-gsc-250/dcp_8/dma_axi_gpio_1_0.edf:5173]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'dma_i/axi_gpio_1/gpio_io_o[3]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/.Xil/Vivado-23131-gsc-250/dcp_8/dma_axi_gpio_1_0.edf:5180]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'dma_i/axi_gpio_1/gpio_io_o[4]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/.Xil/Vivado-23131-gsc-250/dcp_8/dma_axi_gpio_1_0.edf:5187]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'dma_i/axi_gpio_1/gpio_io_o[5]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/.Xil/Vivado-23131-gsc-250/dcp_8/dma_axi_gpio_1_0.edf:5194]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'dma_i/axi_gpio_1/gpio_io_o[6]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/.Xil/Vivado-23131-gsc-250/dcp_8/dma_axi_gpio_1_0.edf:5201]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'dma_i/axi_gpio_1/gpio_io_o[7]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/.Xil/Vivado-23131-gsc-250/dcp_8/dma_axi_gpio_1_0.edf:5208]
+Parsing XDC File [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/.Xil/Vivado-29063-gsc-250/dcp/dma_wrapper_early.xdc]
+Finished Parsing XDC File [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/.Xil/Vivado-29063-gsc-250/dcp/dma_wrapper_early.xdc]
+Parsing XDC File [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/.Xil/Vivado-29063-gsc-250/dcp/dma_wrapper.xdc]
+Finished Parsing XDC File [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/.Xil/Vivado-29063-gsc-250/dcp/dma_wrapper.xdc]
+Parsing XDC File [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/.Xil/Vivado-29063-gsc-250/dcp/dma_wrapper_late.xdc]
+Finished Parsing XDC File [/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/.Xil/Vivado-29063-gsc-250/dcp/dma_wrapper_late.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00.50 ; elapsed = 00:00:00.50 . Memory (MB): peak = 1290.168 ; gain = 9.000 ; free physical = 134 ; free virtual = 10184
+Restored from archive | CPU: 0.500000 secs | Memory: 6.626122 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.50 ; elapsed = 00:00:00.50 . Memory (MB): peak = 1290.168 ; gain = 9.000 ; free physical = 134 ; free virtual = 10184
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 5 instances were transformed.
+  RAM32M => RAM32M (RAMS32, RAMS32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32): 4 instances
+  RAM32X1D => RAM32X1D (RAMD32, RAMD32): 1 instances
+
+INFO: [Project 1-604] Checkpoint was created with Vivado v2016.4 (64-bit) build 1756540
+open_checkpoint: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1290.168 ; gain = 287.117 ; free physical = 148 ; free virtual = 10184
+Command: write_bitstream -force -no_partial_bitfile dma_wrapper.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command write_bitstream
+INFO: [DRC 23-27] Running DRC with 4 threads
+WARNING: [DRC 23-20] Rule violation (RTSTAT-10) No routable loads - 33 net(s) have no routable loads. The problem bus(es) and/or net(s) are dma_i/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, dma_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, dma_i/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, dma_i/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, dma_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, dma_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i, dma_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i, dma_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, dma_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, dma_i/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, dma_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, dma_i/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, dma_i/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, dma_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_i, dma_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_i (the first 15 of 33 listed).
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 1 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./dma_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-120] WebTalk data collection is mandatory when using a WebPACK part without a full Vivado license. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-186] '/home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/impl_1/usage_statistics_webtalk.xml' has been successfully sent to Xilinx on Fri Apr 21 17:26:21 2017. For additional details about this file, please refer to the WebTalk help file at /opt/Xilinx/Vivado/2016.4/doc/webtalk_introduction.html.
+INFO: [Common 17-83] Releasing license: Implementation
+15 Infos, 9 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1709.008 ; gain = 418.840 ; free physical = 242 ; free virtual = 9889
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 21 17:26:21 2017...

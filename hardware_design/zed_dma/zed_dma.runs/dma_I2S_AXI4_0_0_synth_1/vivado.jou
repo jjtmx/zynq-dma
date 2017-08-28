@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Fri Apr 21 10:48:13 2017
+# Process ID: 9234
+# Current directory: /home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/dma_I2S_AXI4_0_0_synth_1
+# Command line: vivado -log dma_I2S_AXI4_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dma_I2S_AXI4_0_0.tcl
+# Log file: /home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/dma_I2S_AXI4_0_0_synth_1/dma_I2S_AXI4_0_0.vds
+# Journal file: /home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.runs/dma_I2S_AXI4_0_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source dma_I2S_AXI4_0_0.tcl -notrace

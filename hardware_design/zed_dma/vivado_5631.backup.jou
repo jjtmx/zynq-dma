@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Mon Apr 24 19:34:00 2017
+# Process ID: 5631
+# Current directory: /home/gsc/zynq7000/projects/hardware_design/zed_dma
+# Command line: vivado zed_dma.xpr
+# Log file: /home/gsc/zynq7000/projects/hardware_design/zed_dma/vivado.log
+# Journal file: /home/gsc/zynq7000/projects/hardware_design/zed_dma/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project zed_dma.xpr
+launch_sdk -workspace /home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.sdk -hwspec /home/gsc/zynq7000/projects/hardware_design/zed_dma/zed_dma.sdk/dma_wrapper.hdf

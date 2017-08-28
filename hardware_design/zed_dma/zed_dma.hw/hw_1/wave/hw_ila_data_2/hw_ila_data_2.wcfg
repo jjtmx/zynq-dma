@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/hard_design/zed_dma/zed_dma.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="2048001fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="123"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject fp_name="dma_i/system_ila/inst/net_slot_0_axis_tdata" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_0_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axis_tdata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="dma_i/system_ila/inst/net_slot_0_axis_tkeep" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_0_axis_tkeep[3:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axis_tkeep[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="dma_i/system_ila/inst/net_slot_0_axis_tvalid" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_0_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axis_tvalid</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="dma_i/system_ila/inst/net_slot_0_axis_tready" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_0_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axis_tready</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="dma_i/system_ila/inst/net_slot_0_axis_tlast" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_0_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axis_tlast</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider46">
+      <obj_property name="label">slot_0 : I2S_AXI4_TOP_0_s2mm : Interface</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">khaki</obj_property>
+   </wvobject>
+   <wvobject fp_name="Stream_Channel_(i2:s0)_(I2S_AXI4_TOP_0_s2mm)" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Stream_Channel_(i2:s0)_(I2S_AXI4_TOP_0_s2mm)[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Stream_Channel_(i2:s0)_(I2S_AXI4_TOP_0_s2mm)[2:0]</obj_property>
+      <obj_property name="label">slot_0 : I2S_AXI4_TOP_0_s2mm : Stream Channel  Events</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+      <obj_property name="EnumTransactionColorTable">0=blank</obj_property>
+      <obj_property name="CustomSignalColor">Purple</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="group48" type="group">
+      <obj_property name="label">slot_0 : I2S_AXI4_TOP_0_s2mm : Stream Channel Signal Group</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="dma_i/system_ila/inst/net_slot_0_axis_tdata" type="array">
+         <obj_property name="DisplayName">FullPathName</obj_property>
+         <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_0_axis_tdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">net_slot_0_axis_tdata[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="LABELRADIX">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="dma_i/system_ila/inst/net_slot_0_axis_tkeep" type="array">
+         <obj_property name="DisplayName">FullPathName</obj_property>
+         <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_0_axis_tkeep[3:0]</obj_property>
+         <obj_property name="ObjectShortName">net_slot_0_axis_tkeep[3:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="LABELRADIX">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="dma_i/system_ila/inst/net_slot_0_axis_tlast" type="logic">
+         <obj_property name="DisplayName">FullPathName</obj_property>
+         <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_0_axis_tlast</obj_property>
+         <obj_property name="ObjectShortName">net_slot_0_axis_tlast</obj_property>
+         <obj_property name="LABELRADIX">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="dma_i/system_ila/inst/net_slot_0_axis_tready" type="logic">
+         <obj_property name="DisplayName">FullPathName</obj_property>
+         <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_0_axis_tready</obj_property>
+         <obj_property name="ObjectShortName">net_slot_0_axis_tready</obj_property>
+         <obj_property name="LABELRADIX">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="dma_i/system_ila/inst/net_slot_0_axis_tvalid" type="logic">
+         <obj_property name="DisplayName">FullPathName</obj_property>
+         <obj_property name="ElementShortName">dma_i/system_ila/inst/net_slot_0_axis_tvalid</obj_property>
+         <obj_property name="ObjectShortName">net_slot_0_axis_tvalid</obj_property>
+         <obj_property name="LABELRADIX">true</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

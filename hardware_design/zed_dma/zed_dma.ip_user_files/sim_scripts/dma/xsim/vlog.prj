@@ -1,0 +1,14 @@
+verilog xil_defaultlib "../../../bd/dma/ip/dma_processing_system7_0_0/sim/dma_processing_system7_0_0.v" --include "../../../../zed_dma.srcs/sources_1/bd/dma/ipshared/7dd0/hdl" --include "../../../../zed_dma.srcs/sources_1/bd/dma/ipshared/7e3a/hdl" --include "../../../../zed_dma.srcs/sources_1/bd/dma/ipshared/3954/src"
+verilog xil_defaultlib "../../../bd/dma/ipshared/2e37/xlconcat.v" --include "../../../../zed_dma.srcs/sources_1/bd/dma/ipshared/7dd0/hdl" --include "../../../../zed_dma.srcs/sources_1/bd/dma/ipshared/7e3a/hdl" --include "../../../../zed_dma.srcs/sources_1/bd/dma/ipshared/3954/src"
+verilog xil_defaultlib "../../../bd/dma/ip/dma_xlconcat_0_0/sim/dma_xlconcat_0_0.v" --include "../../../../zed_dma.srcs/sources_1/bd/dma/ipshared/7dd0/hdl" --include "../../../../zed_dma.srcs/sources_1/bd/dma/ipshared/7e3a/hdl" --include "../../../../zed_dma.srcs/sources_1/bd/dma/ipshared/3954/src"
+verilog xil_defaultlib "../../../bd/dma/ip/dma_xbar_1/sim/dma_xbar_1.v" --include "../../../../zed_dma.srcs/sources_1/bd/dma/ipshared/7dd0/hdl" --include "../../../../zed_dma.srcs/sources_1/bd/dma/ipshared/7e3a/hdl" --include "../../../../zed_dma.srcs/sources_1/bd/dma/ipshared/3954/src"
+verilog xil_defaultlib "../../../bd/dma/hdl/dma.v" --include "../../../../zed_dma.srcs/sources_1/bd/dma/ipshared/7dd0/hdl" --include "../../../../zed_dma.srcs/sources_1/bd/dma/ipshared/7e3a/hdl" --include "../../../../zed_dma.srcs/sources_1/bd/dma/ipshared/3954/src"
+verilog xil_defaultlib "../../../bd/dma/ipshared/3954/src/i2s_axi4.v" --include "../../../../zed_dma.srcs/sources_1/bd/dma/ipshared/7dd0/hdl" --include "../../../../zed_dma.srcs/sources_1/bd/dma/ipshared/7e3a/hdl" --include "../../../../zed_dma.srcs/sources_1/bd/dma/ipshared/3954/src"
+verilog xil_defaultlib "../../../bd/dma/ip/dma_I2S_AXI4_0_0/sim/dma_I2S_AXI4_0_0.v" --include "../../../../zed_dma.srcs/sources_1/bd/dma/ipshared/7dd0/hdl" --include "../../../../zed_dma.srcs/sources_1/bd/dma/ipshared/7e3a/hdl" --include "../../../../zed_dma.srcs/sources_1/bd/dma/ipshared/3954/src"
+verilog xil_defaultlib "../../../bd/dma/ip/dma_auto_pc_0/sim/dma_auto_pc_0.v" --include "../../../../zed_dma.srcs/sources_1/bd/dma/ipshared/7dd0/hdl" --include "../../../../zed_dma.srcs/sources_1/bd/dma/ipshared/7e3a/hdl" --include "../../../../zed_dma.srcs/sources_1/bd/dma/ipshared/3954/src"
+verilog xil_defaultlib "../../../bd/dma/ip/dma_auto_us_0/sim/dma_auto_us_0.v" --include "../../../../zed_dma.srcs/sources_1/bd/dma/ipshared/7dd0/hdl" --include "../../../../zed_dma.srcs/sources_1/bd/dma/ipshared/7e3a/hdl" --include "../../../../zed_dma.srcs/sources_1/bd/dma/ipshared/3954/src"
+verilog xil_defaultlib "../../../bd/dma/ip/dma_auto_pc_1/sim/dma_auto_pc_1.v" --include "../../../../zed_dma.srcs/sources_1/bd/dma/ipshared/7dd0/hdl" --include "../../../../zed_dma.srcs/sources_1/bd/dma/ipshared/7e3a/hdl" --include "../../../../zed_dma.srcs/sources_1/bd/dma/ipshared/3954/src"
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

@@ -1,0 +1,1 @@
+cmd_/home/gsc/zynq7000/projects/xilinx_axidma/driver/axidma.ko := arm-xilinx-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/gsc/zynq7000/projects/xilinx_axidma/driver/axidma.ko /home/gsc/zynq7000/projects/xilinx_axidma/driver/axidma.o /home/gsc/zynq7000/projects/xilinx_axidma/driver/axidma.mod.o
